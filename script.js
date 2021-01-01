@@ -3,7 +3,7 @@ const hours = document.getElementById('hours')
 const minutes = document.getElementById('mins')
 const seconds = document.getElementById('secs')
 
-const newYear = new Date('January 1 2021 00:00:00').getTime();
+const newYear = new Date('January 1 2022 00:00:00').getTime();
 
 const ticker = () => {
   const currentTime = new Date().getTime();
